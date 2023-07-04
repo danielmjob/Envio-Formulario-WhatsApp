@@ -13,7 +13,7 @@ function enviarFormularioWhatsapp(){
         if (nome == "" & assunto=="" & mensagem==""){
                 console.log(" Campos obrigatórios Vazios");
         }else{
-                var win= window.open(`https://wa.me/${numero}?text=*Nome:*%20${nome}%0*AAssunto:*%20${assunto}%0A*Mensagem:*%0A${mensagem}`,'_blank');
+                var win= window.open(`https://wa.me/${numero}?text=*Nome:*%20${nome}%0A*Assunto:*%20${assunto}%0A*Mensagem:*%0A${mensagem}`,'_blank');
 
                 // %0A quebra a linha
         }
