@@ -1,11 +1,12 @@
 body{
-    background-color:#5F9EA0;
+    background-color:#75c1c4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     color:black;
+    text-shadow:3px 3px #6b77781f;
 }
 
 fieldset{
@@ -15,10 +16,12 @@ fieldset{
     margin-top: 10rem;
     color:#6B7778;
     background-color:#DDF8F9;
+    border: 0px;
     border-radius: 10px;
     box-shadow: 30px 30px 17px 0px rgba(33, 55, 56, 0.25);
     font-weight: bold;
 }
+
 .box input{
     width: 300px;
     height: 20px;
@@ -27,6 +30,7 @@ fieldset{
     padding: 0.9rem;
     background-color:#e4f7f8;
 }
+
 .box textarea{
     resize: none;
     width: 300px;
@@ -34,28 +38,30 @@ fieldset{
     border-radius: 10px;
     padding: 0.9rem;
     background-color:#e4f7f8;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .box button{
-    margin-left: 6rem;
-    margin-top: 2.5rem;
-    background-color: #6B7778;
-    border: 0px;
-    padding: 10px 40px;
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-left: 10%;
+    background-color: #1a6568;
+    padding: 20px 40px;
+    font-weight: bold;
     color: white;
     font-size: 1rem;
     outline: none;
-    border-radius: 4px;
+    border: 0px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.219);
+    cursor:pointer;
+    transition: 0.5s ease-in-out;
 }
 
 .box input:focus, .box textarea:focus{
     background-color:white;
 }
 
-
 .box button:hover{
     background-color: #000000;
-}
-
-.box button:active{
-    background-color: #F7E579;
 }
